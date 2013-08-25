@@ -1,5 +1,13 @@
 #git
 
+- 第一步
+先讓本機端的master 聯結到遠端的origin 的連結
+
+	git remote add **遠端repsitory在本機branch的名稱** **github上面的聯結**
+
+	git push -u origin **要送到遠端的目前branch**
+
+
 - create remote branch and add a local branch to track the remote branch
 
         git push -u origin remote_branch_name
