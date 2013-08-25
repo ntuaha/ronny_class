@@ -1,10 +1,9 @@
-#git
-
+git
+===
 - 第一步
 先讓本機端的master 聯結到遠端的origin 的連結
 
         git remote add **遠端repsitory在本機branch的名稱** **github上面的聯結**
-
         git push -u origin **要送到遠端的目前branch**
 
 
@@ -26,8 +25,8 @@
     
     
     
-## 處理別人的資料基本流程
-
+處理別人的資料基本流程
+===
 1. 複製下來
 
         git clone <remote_address>
